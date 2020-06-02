@@ -1,0 +1,110 @@
+body{
+	height:100%;
+	width:100%;
+	background: #25303B;
+	font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/BPreplay.otf);
+}
+
+
+.main img[id=profile]{ 
+	width: 20%;
+  	height: auto;
+	transform: rotate(270deg);
+	position:fixed;
+	float:right;
+	border: solid 5px rgb(255, 64, 64);
+	border-radius: 25px;
+	top:80px;
+	right:70px;
+
+}
+
+.info1{
+	height:auto;
+
+	margin-top:50px;
+	text-align: center;
+	color:white;
+}
+
+.info1 p[id=fullname]{
+	font-size: 25px;
+}
+
+.info1 p[id=job]{
+	font-size: 20px;
+	padding-bottom: 10%;
+	border-bottom: solid 2px rgb(255, 64, 64);
+}
+
+.main{
+	width:50%;
+	margin-left: 25%;
+}
+
+@keyframes transitionInLeft{
+	from{
+		transform: translateY(-100%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+
+}
+
+@keyframes transitionInRight{
+	from{
+		transform: translateY(100%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+
+}
+
+
+.lines{
+	height:100%;
+	width:10px;
+	float:left;
+	position:absolute;
+	top:0px;
+	left:20%;
+	background-color: rgb(255, 64, 64);
+	animation: transitionInLeft 2s;
+}
+
+#two{
+left:85%;
+animation: transitionInLeft 2.5s;
+background-color: rgb(255, 204, 0);
+}
+
+#three{
+	left:80%;
+	animation: transitionInRight 2s;
+	background-color: rgb(204, 204, 204);
+}
+
+.icons{
+	width:100%;
+	text-align: center;
+
+
+}
+.icons p{
+	font-family: myFirstFont;
+	
+}
+.icons img{
+	width:50px;
+	height:auto;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+}

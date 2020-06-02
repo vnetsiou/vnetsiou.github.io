@@ -1,0 +1,72 @@
+
+<html>
+<meta charset="UTF-8"> 
+<title>Νέτσιου Βασιλική</title>
+<link rel="stylesheet" type="text/css" href="/css/bar.css">
+<link rel="stylesheet" type="text/css" href="/css/interests.css">
+
+
+
+<body> 
+    <div class="sidebar">
+      <ul >
+      <a href="index.html"><img src="info.svg" width="32" height="32"><b>Σχετικά μ'εμένα</b></a>
+      <a href="certificates.html"><img src="writing.svg" width="32" height="32"><b>Πιστοποιήσεις</b></a>
+      <a href="work.html"><img src="work(1).svg" width="32" height="32"><b>Προυπηρεσία</b></a>
+      <a href="interests.html"><img src="puzzle.svg" width="32" height="32"><b>Ενδιαφέροντα</b></a>
+      <a href="contact.html"><img src="contact.svg" width="32" height="32"><b>Επικοινωνία</b></a>
+      <a href="CV.pdf" target="_blank"><img id="pdf" src="pdf.svg" width="32" height="32"><b>Εξαγωγή PDF</b></a>
+      </ul>
+    </div>
+
+    <h1>Ενδιαφέροντα</h1>
+
+    <div class="text">
+    	<img src="ballerina.svg" onclick="myDance()">
+    	<img src="travel.svg" onclick="myTravel()">
+    	<img src="branding.svg" onclick="myCreate()">
+    </div>
+    <div class="more">
+    	
+    		<p id="dance">
+    		<b>Ο χορός</b><br> λειτουργεί σαν ένα μέσο ηρεμίας και νοητικής επανεκκίνησης για μένα. Αποβάλλει το στρες ακόμα και της πιο δύσκολης μέρας βοηθώντας με να παραμένω αισιόδοξη και θετική. Είναι επιπλέον ένας τρόπος χαλάρωσης και απελευθέρωσης όλων των τρελών στιγμών που έξω από το στούντιο θα έμοιαζαν πολύ ξεχωριστοί.
+    		</p>
+
+    		<p id="travel">
+    		<b>Το ταξίδι</b><br> αποτελεί ένας τρόπος συνεχούς βιωματικής μάθησης. Νέοι προορισμοί σημαίνουν νέοι πολιτισμοί, νέες γέυσεις, νέα τοπία, νέα ιστορία και διαφορετικές εικόνες που εντυπώνονται για πάντα στη μνήμη. Είναι ταυτόχρονα μία πηγή έμπνευσης για βελτίωση του  τρόπου ζωής, καθώς με την αύξηση των νέων εικόνων αυξάνεται και η εκτίμηση των απλών αξιών την ζωής.
+    		</p>
+    
+    		<p id="create">
+    		<b>Η δημιουργία</b><br>  διαφόρων πραγμάτων, από μία ζωγραφιά, μέχρι και τη δημιουργία ρούχων αποτελεί το μεγαλύτερο μερίδιο του ελεύθερου χρόνου μου. Η καλαισθησία, η νοητική ικανοποιήση που προσφέρει καθετί το όμορφο, αποτελεί πηγή ηρεμίας και χαράς. Στη δημιουργίκη απασχόληση, συμπεριλαμβάνονται η μαγειρική, το σχέδιο μόδας, η ραπτική, η μουσική, η ζωγραφική, η σχεδίαση ενός site και πολλά άλλα.
+    		</p>
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	function myDance(){
+		document.getElementById("dance").style.display = "block";
+		document.getElementById("travel").style.display = "none";
+		document.getElementById("create").style.display = "none";
+
+	}
+
+	function myTravel(){
+		document.getElementById("travel").style.display = "block";
+		document.getElementById("dance").style.display = "none";
+		document.getElementById("create").style.display = "none";
+
+	}
+
+	function myCreate(){
+		document.getElementById("create").style.display = "block";
+		document.getElementById("travel").style.display = "none";
+		document.getElementById("dance").style.display = "none";
+
+	}
+
+
+</script>
+
+</html>

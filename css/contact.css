@@ -1,0 +1,52 @@
+body{
+	height:100%;
+	width:100%;
+	background: #25303B;
+	color:white;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/BPreplay.otf);
+}
+
+.info{
+	font-family: myFirstFont;
+	text-align: center;
+}
+.form{
+	margin-top: 50px;
+	font-family: myFirstFont;
+	text-align: center;
+
+}
+
+.form [id=submit]{
+	background-color: rgba(0,0,0,0.5);
+	font-size: 20px;
+	color: white;
+	padding:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: none;
+}
+
+#text{
+	font-weight: bold;
+}
+
+.icons{
+	width:80%;
+	margin-left: 10%;
+	text-align: center;
+}
+.icons p{
+	font-family: myFirstFont;
+	
+}
+.icons img{
+	width:50px;
+	height:auto;
+	margin-left: 50px;
+	margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+body{
+	height:100%;
+	width:100%;
+  background: #25303B;
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/BPreplay.otf);
+}
+
+.text{
+  margin-left: 15%;
+  margin-top: 5%;
+  width:70%;
+  height:auto;
+  
+}
+
+h1{
+  text-align: center;
+  color:white;
+  position: sticky;
+}
+/*****************************************/
+
+.text{
+  top: 5%;
+  margin-right: 10%;
+  width:80%;
+  height:25%;
+  position: absolute;
+
+}
+
+.text img{
+  height: 100%;
+  width:auto;
+  border: 2px solid rgb(255, 64, 64);
+  border-radius: 200px;
+  float:left;
+
+  margin-left: 10%;
+  transition: 1s ease;
+}
+
+.text img:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+
+.more{
+  
+  text-align: center;
+  height:20%;
+  margin-top: 25%;
+  width:50%;
+  margin-left: 25%;
+}
+
+
+.more p {
+  display:none;
+  color:white;
+  margin-top: 15px;
+}
+
+.more p b{
+  color:rgb(255, 64, 64);
+  font-size: 25px;
+}
+
